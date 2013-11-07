@@ -1,0 +1,85 @@
+/* 
+    Document   : style
+    Created on : 10/04/2013, 23:13:20
+    Author     : Jhonatas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+*{
+    font-family:"Arial",Georgia,Serif;
+}
+
+h1, h2, h3, h4, p, label{
+    color: #444
+}
+
+body{
+    margin: 0 auto;
+    width: 1000px;
+}
+#header{
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/header.jpg);
+    background-position-y: 189px;
+    border-bottom: 8px solid #696969;
+}
+#contents{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    width: 695px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 2px solid darkgrey;
+    background-color: #F0F0F0;
+    min-height: 400px;
+    overflow: auto;
+}
+#footer{
+    height: 30px;
+    float: left;
+    background-color: #D0D0D0;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/* Menu lateral*/
+#menu {
+	margin: 0;
+	padding: 0;
+        float: left;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+#menu{
+	width: 233px;
+}
+#menu ul{
+	list-style: none;
+	text-indent: 0px;
+}
+#menu li{
+	margin-top: 3px;
+}
+#menu a{
+	font: 12px Verdana;
+	padding: 4px;
+	color: #646464;
+	display:block;
+	padding: 6px 30px;
+	height: 20px;
+	text-decoration: none;
+	background: url('../images/background.gif');
+}
+#menu a:hover{
+	background: url('../images/highlight.gif') no-repeat right;
+	padding: 6px 40px;
+}:148px; background:url(../images/nav_active.jpg) no-repeat; color: #b18211;}
