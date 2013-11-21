@@ -14,8 +14,8 @@
     
                 <li class='active'><?php echo anchor('home', 'Home')?></li>
                 <li><?php echo anchor('clientes', 'Clientes')?></li>
-                <li><?php echo anchor('clientes/categoria', 'Categorias')?></li>
-                <li><?php echo anchor('clientes', 'Add Clientes')?></li>
+                <li><?php echo anchor('clientes/empresa', 'Empresas')?></li>
+                <li><?php echo anchor('orcamento', 'Orcamentos')?></li>
                 <li><?php echo anchor('clientes/listar', 'Listar Clientes')?></li>
                 <li><?php echo anchor('clientes/buscar', 'Buscar Clientes')?></li>
                 <li class='last'><?php echo anchor('ferramentas', 'Ferramentas')?></li>
